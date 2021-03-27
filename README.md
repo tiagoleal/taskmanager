@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+<h1 align="center">Task Manager</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#">
+    <img alt="Current Version" src="https://img.shields.io/badge/version-1.0.0 -brightgreen.svg">
+  </a>
+  <a href="https://React.com/pt-br/">
+    <img alt="" src="https://img.shields.io/badge/React-17.0.1-blue.svg" target="_blank">
+  </a>
+  <a href="https://nodejs.org/en/">
+    <img alt="Node Version" src="https://img.shields.io/badge/node-%3E%3D%2012.18.3-brightgreen" target="_blank">
+  </a>
 
-## Available Scripts
+  <a href="https://yarnpkg.com/getting-started/usage">
+    <img alt="" src="https://img.shields.io/badge/Yarn-1.22.5-blue.svg" target="_blank">
+  </a>
 
-In the project directory, you can run:
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Web
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![](https://github.com/tiagoleal/taskmanager/blob/main/src/taskmanager.png)
 
-### `yarn test`
+## Stack do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **react-dnd**
+- **Yarn**
+- **React**
 
-### `yarn build`
+## Bibliotecas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **react-dnd:** Pacote para trabalhar com data e horário. Link: <a href="https://react-dnd.github.io/react-dnd/about">Docs</a>
+- **styled-components:** Pacote para trabalhar com css dinâmico. Link: <a href="https://styled-components.com/docs">Docs</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Iniciar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para executar o projeto em sua máquina local, em ambiente de desenvolvimento.
 
-### `yarn eject`
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Devemos ter instalado em nossa máquina:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node
+- NPM
+- Yarn (caso desejar executar com yarn ao invés do npm)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Instalações
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Instalar node (Sempre pegar a versão LTS, pois é mais estável): <a href="https://nodejs.org/en/">Docs</a>
+- Instalar yarn: <a href="https://classic.yarnpkg.com/latest.msi">Docs</a>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para testar se o serviço foi instalado com sucesso, você pode executar o comando para verificar a versão do Node:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ node -v
+# Deve retornar a versão do node: v12.18.2 ou maior
+$ npm -v
+# A versão do npm: 6.14.5
+```
 
-### Code Splitting
+## Primeiros passos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Após realizar o clone do projeto e ter realizado a instalação do node, basta acessar a pasta do projeto e disparar o comando para baixar as dependências:
 
-### Analyzing the Bundle Size
+1.  Instalar dependências
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+$ npm install
+# ou
+$ yarn install
 
-### Making a Progressive Web App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2.  Rodar o projeto
 
-### Advanced Configuration
+```bash
+$ npm run start
+#ou
+$ yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
+## Autores
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+[<img src="https://avatars1.githubusercontent.com/u/5727529?s=460&v=4" width="100px;"/><br /><sub><b>Tiago Leal</b></sub>](https://github.com/tiagoleal)<br />
