@@ -30,7 +30,7 @@
 
 ## Bibliotecas
 
-- **react-dnd:** Pacote para trabalhar com data e horário. Link: <a href="https://react-dnd.github.io/react-dnd/about">Docs</a>
+- **react-dnd:** Pacote para com drag and drop. Link: <a href="https://react-dnd.github.io/react-dnd/about">Docs</a>
 - **styled-components:** Pacote para trabalhar com css dinâmico. Link: <a href="https://styled-components.com/docs">Docs</a>
 
 ## Iniciar o projeto
